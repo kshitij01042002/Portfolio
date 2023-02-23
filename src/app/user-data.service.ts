@@ -125,7 +125,7 @@ export class UserDataService {
       name:"Portfolio",
       image:"./assets/user.png",
       content:"Portfolio Web-App made in typescript using angular as framework with bootstrap.",
-      githubLink:"https://github.com/heyimShivam/angular-Port",
+      githubLink:"https://github.com/kshitij01042002/Portfolio",
       workingLink:"#"
     },
     {
