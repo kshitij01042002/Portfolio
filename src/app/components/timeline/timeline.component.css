@@ -3,6 +3,8 @@
 
 .timelineTab{
     color: #333;
+    padding-top: 65px;
+    padding-bottom: 55px; 
 }
 .timeLineHR{
     background-color: #C3073F;

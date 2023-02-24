@@ -26,8 +26,8 @@ export class UserDataService {
     Branch: "Computer engineering",
     image: './assets/kshitij.jpeg',
     college: "Vidyavardhini's College Of Engineering & Technology",
-    details:'Student | Web Developer | Open Sorce ENTHUSIAST',
-    userDetailsList: ['STUDENT', 'DEVELOPER', 'Open Sorce ENTHUSIAST'],
+    details:'Student | Web Developer | Open Source ENTHUSIAST',
+    userDetailsList: ['STUDENT', 'DEVELOPER', 'Open Source ENTHUSIAST'],
     resume:'https://drive.google.com/file/d/1X_-f9dc07e-rV4uNR3S_RU7A5-AvWtos/view'
   }
 
