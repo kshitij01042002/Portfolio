@@ -121,13 +121,13 @@ export class UserDataService {
       content:"Hand written codescanner application using OCR to convert handwritten text to editable text and compile in upti 6 different languages",
       githubLink:"https://github.com/kshitij01042002/CodeScanner"
     },
-    {
-      name:"Portfolio",
-      image:"./assets/user.png",
-      content:"Portfolio Web-App made in typescript using angular as framework with bootstrap.",
-      githubLink:"https://github.com/kshitij01042002/Portfolio",
-      workingLink:"#"
-    },
+    // {
+    //   name:"Portfolio",
+    //   image:"./assets/user.png",
+    //   content:"Portfolio Web-App made in typescript using angular as framework with bootstrap.",
+    //   githubLink:"https://github.com/kshitij01042002/Portfolio",
+    //   workingLink:"#"
+    // },
     {
       name:"Focus-Time",
       image:"./assets/focus.jpg",
