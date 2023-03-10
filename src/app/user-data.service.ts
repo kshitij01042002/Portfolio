@@ -87,7 +87,7 @@ export class UserDataService {
       color:"darkred",
       image:"assets/bitbyte.jpeg",
       myJob:"Executive member",
-      position:"2020 – Present"
+      position:"2021 – Present"
     }
   ]
   timeLine=[
@@ -112,13 +112,13 @@ export class UserDataService {
     {
       name:"LaravelShop",
       image:"./assets/LaravelShop.jpeg",
-      content:"This is an E-commerce Website made on Laravel. This includes admin panel integrated with SQL databse.",
+      content:"This Laravel-based ecommerce website offers a seamless online shopping experience with a user-friendly interface, intuitive search function, and various payment options. Administrators can manage inventory, process orders, and track sales using the built-in analytics dashboard, and customize the website's appearance and add new products.",
       githubLink:"https://github.com/kshitij01042002/E-commerce-Website"
     },
     {
       name:"CodeScanner",
       image:"./assets/codescannerlogo.png",
-      content:"Hand written codescanner application using OCR to convert handwritten text to editable text and compile in upti 6 different languages",
+      content:"This mobile app scans handwritten code using OCR and compiles it in six different programming languages. It has a user-friendly editor with syntax highlighting and error checking, and a built-in testing environment for debugging. It saves time and makes coding more efficient for developers who prefer pen and paper.. OCR with accuracy over 95%. ",
       githubLink:"https://github.com/kshitij01042002/CodeScanner"
     },
     // {
