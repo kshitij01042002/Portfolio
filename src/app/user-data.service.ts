@@ -28,7 +28,7 @@ export class UserDataService {
     college: "Vidyavardhini's College Of Engineering & Technology",
     details:'Student | Web Developer | Open Source ENTHUSIAST',
     userDetailsList: ['STUDENT', 'DEVELOPER', 'Open Source ENTHUSIAST'],
-    resume:'https://drive.google.com/file/d/1X_-f9dc07e-rV4uNR3S_RU7A5-AvWtos/view'
+    resume:'https://drive.google.com/file/d/16Aa7_ue9jMp8eeuKdkl5jnZSiDNqy9tH/view?usp=sharing'
   }
 
   socialMedia = [
