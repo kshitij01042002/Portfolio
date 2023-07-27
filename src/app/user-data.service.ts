@@ -24,11 +24,11 @@ export class UserDataService {
   myDetails = {
     name: "Kshitij",
     Branch: "Computer engineering",
-    image: './assets/kshitij.jpeg',
+    image: './assets/myphoto.png',
     college: "Vidyavardhini's College Of Engineering & Technology",
     details:'Student | Web Developer | Open Source ENTHUSIAST',
     userDetailsList: ['STUDENT', 'DEVELOPER', 'Open Source ENTHUSIAST'],
-    resume:'https://drive.google.com/file/d/16Aa7_ue9jMp8eeuKdkl5jnZSiDNqy9tH/view?usp=sharing'
+    resume:'https://drive.google.com/file/d/1s70pn5MmTrua1ts8ttgKwKK7o5Hvb_LU/view?usp=drive_link'
   }
 
   socialMedia = [
@@ -56,9 +56,9 @@ export class UserDataService {
   experience =[
     {
       heading:"Oppia",
-      content:"Oppia web is an open source, free, online learning platform to make quality education accessible for all. It has over 1M+ users, + 522 contributors and codebase has 4.6k stars on GitHub.",
+      content:"Oppia web is an open source, free, online learning platform to make quality education accessible for all. It has over 2M+ users, + 522 contributors and codebase has 4.6k stars on GitHub.",
       color:"darkgreen",
-      myJob:"LaCE - Team Member",
+      myJob:"Google Summer of Code '23, Contributor",
       image:"assets/oppia.png",
       position:"2022 – Present",
       siteLink:"https://github.com/oppia/",
@@ -88,32 +88,44 @@ export class UserDataService {
       image:"assets/bitbyte.jpeg",
       myJob:"Executive member",
       position:"2021 – Present"
+    },
+    {
+      heading:"Intel's - OpenVINO",
+      content:"Coming Soon...",
+      color:"darkgreen",
+      image:"assets/ope.png",
+      myJob:"Contributor",
+      position:"Present",
+      siteLink:"https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html",
     }
   ]
   timeLine=[
     {
       year:'2008 - 2018',
       content:'1-10th',
-      contentTwo:'St. Thomas High School, Mumbai'
+      contentTwo:'St. Thomas High School, Mumbai',
+      marks: '89.80 %'
     },
     {
       year:'2018 - 2020',
       content:'11-12th',
-      contentTwo:'Shri TP Bhatia College of Science, Mumbai'
+      contentTwo:'Shri TP Bhatia College of Science, Mumbai',
+      marks: '89.08 %'
     },
     {
       year:'2020 - 2024',
       content:'B.E.',
-      contentTwo:'Vidyavardhinis College Of Engineering & Technology'
+      contentTwo:'Vidyavardhinis College Of Engineering & Technology',
+      marks: '.      9.2 GPA'
     }
   ]
 
   projectDetails = [
     {
-      name:"LaravelShop",
-      image:"./assets/LaravelShop.jpeg",
-      content:"This Laravel-based ecommerce website offers a seamless online shopping experience with a user-friendly interface, intuitive search function, and various payment options. Administrators can manage inventory, process orders, and track sales using the built-in analytics dashboard, and customize the website's appearance and add new products.",
-      githubLink:"https://github.com/kshitij01042002/E-commerce-Website"
+      name:"KHETI-Your Smart Farming Assistant",
+      image:"./assets/maskable.png",
+      content:"Kheti - Web App for Farmers: Next.js & Flask-based application using data science algorithms (image classification, NLP, ML) to identify and treat plant diseases. Predicts crop yield, pest/disease likelihood, and recommends optimal fertilizer use. Saves time, money, and improves crop quality and yields. Valuable resource for farmers to enhance crop production.",
+      githubLink:"https://github.com/kshitij01042002/kheti"
     },
     {
       name:"CodeScanner",
@@ -121,17 +133,17 @@ export class UserDataService {
       content:"This mobile app scans handwritten code using OCR and compiles it in six different programming languages. It has a user-friendly editor with syntax highlighting and error checking, and a built-in testing environment for debugging. It saves time and makes coding more efficient for developers who prefer pen and paper.. OCR with accuracy over 95%. ",
       githubLink:"https://github.com/kshitij01042002/CodeScanner"
     },
-    // {
-    //   name:"Portfolio",
-    //   image:"./assets/user.png",
-    //   content:"Portfolio Web-App made in typescript using angular as framework with bootstrap.",
-    //   githubLink:"https://github.com/kshitij01042002/Portfolio",
-    //   workingLink:"#"
-    // },
+    {
+      name:"Terra-finance",
+      image:"./assets/terra.png",
+      content:"Hackathon winning Problem statement based react+Flask(Firebase as database) Application. A smart finance managing application uses power of AI and machine learning to smartly manage your finance and promote usage of renewable energy by rewarding it's user.",
+      githubLink:"https://github.com/kshitij01042002/Hackerstellar-BootstrapParadox",
+      workingLink:""
+    },
     {
       name:"Focus-Time",
       image:"./assets/focus.jpg",
-      content:"This is my first react-native project. It uses concepts of hooks and Components. It allows you to focus and set a timer for a particular task. When the time slot for a given task is completed the device vibrates alarming us",
+      content:"This is my first react-native project. It uses concepts of hooks and Components. It allows you to focus and set a timer for a particular task. When the time slot for a given task is completed the device vibrates alarming us.",
       githubLink:"https://github.com/kshitij01042002/focustime",
       workingLink:""
     },
@@ -141,11 +153,24 @@ export class UserDataService {
       content:"WorkShop Management System for local business made on JAVA using Google's Firestore NoSQL Database consisting of real time updates",
       githubLink:"https://github.com/kshitij01042002/Workshop-Management-System"
     },
+    // {
+    //   name:"To-Do list",
+    //   image:"./assets/todo.png",
+    //   content:"Simple Task list using Laravel FrameWork and Bootstrap",
+    //   githubLink:"https://github.com/kshitij01042002/TaskList"
+    // }
     {
-      name:"To-Do list",
-      image:"./assets/todo.png",
-      content:"Simple Task list using Laravel FrameWork and Bootstrap",
-      githubLink:"https://github.com/kshitij01042002/TaskList"
-    }
+      name:"LaravelShop",
+      image:"./assets/LaravelShop.jpeg",
+      content:"This Laravel-based ecommerce website offers a seamless online shopping experience with a user-friendly interface, intuitive search function, and various payment options. Administrators can manage inventory, process orders, and track sales using the built-in analytics dashboard, and customize the website's appearance and add new products.",
+      githubLink:"https://github.com/kshitij01042002/E-commerce-Website"
+    },
+    {
+      name:"Portfolio",
+      image:"./assets/user.png",
+      content:"Portfolio Web-App made in typescript using angular as framework with bootstrap.",
+      githubLink:"https://github.com/kshitij01042002/Portfolio",
+      workingLink:"#"
+    },
   ]
 }
